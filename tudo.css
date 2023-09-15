@@ -1,0 +1,642 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'sans';
+    src: url(./Source_Sans_3/SourceSans3-VariableFont_wght.ttf);
+}
+
+
+/*CABEÇALHO*/
+.cacebalho {
+    background-color: #ececec;
+    height: 200px;
+}
+
+.ifclogo {
+    margin-left: 400px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.ifcpesquisa {
+    margin-left: 1250px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.pesquisa {
+    border: 1px solid #e1e1e1;
+    padding: 5px;
+    border-radius: 5px;
+    width: 270px;
+    height: 30px;
+    margin-left: 1260px;
+    margin-top: 87px;
+    position: absolute;
+}
+
+.pesquisa ::placeholder {
+    color: #a6a6a6;
+    padding: 5px;
+    font-size: 15px;
+}
+
+
+
+/*fim CABEÇALHO*/
+
+/*NOTÍCIAS*/
+
+.noticias {
+    margin-top: 30px;
+    margin-left: 400px;
+}
+
+.botao_noticias a {
+    text-decoration: none;
+    color: #444444;
+    font-family: "sans";
+    font-weight: 400;
+    font-size: 30px;
+    max-width: 100px;
+}
+
+.noticias a:hover {
+    color: #b94a48;
+}
+
+.imgcabc {
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.imagemexpo {
+    border: 1px solid #e1e1e1;
+    padding: 3.5px;
+    border-radius: 5px;
+    width: 15%;
+    height: 15%;
+}
+
+.paragrafoexpo a {
+    text-decoration: none;
+    color: #444444;
+    font-family: "sans";
+    font-size: 12px;
+}
+
+.tituloexpo a {
+    text-decoration: none;
+    color: #444444;
+    font-family: "sans";
+    font-size: 20px;
+}
+
+.textexpo {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -180px;
+}
+
+.inscricoes {
+    margin-top: 15px;
+}
+
+.imginscr img {
+    border: 1px solid #e1e1e1;
+    padding: 3.5px;
+    border-radius: 5px;
+    width: 15%;
+    height: 15%;
+}
+
+.paragrafoexpo a {
+    text-decoration: none;
+    color: #444444;
+    font-family: "sans";
+    font-size: 12px;
+}
+
+.tituloinscr a {
+    text-decoration: none;
+    color: #444444;
+    font-family: "sans";
+    font-size: 20px;
+}
+
+.textinscr {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -240px;
+}
+
+.ufsc {
+    position: absolute;
+    margin-top: 10px;
+}
+
+.imgufsc img {
+    border: 1px solid #e1e1e1;
+    padding: 3.5px;
+    border-radius: 5px;
+    width: 8%;
+    height: 8%;
+}
+
+.tituloufsc a {
+    text-decoration: none;
+    color: #444444;
+    font-family: "sans";
+    font-size: 15px;
+}
+
+.paragrafoufsc a {
+    position: absolute;
+    color: #444444;
+    font-family: "sans";
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.textufsc {
+    margin-left: 135px;
+    margin-top: -85px;
+}
+
+.imgcivic img {
+    border: 1px solid #e1e1e1;
+    padding: 3.5px;
+    border-radius: 5px;
+    width: 10%;
+    height: 10%;
+}
+
+.titulocivic a {
+    text-decoration: none;
+    color: #444444;
+    font-family: "sans";
+    font-size: 15px;
+}
+
+.paragrafocivic a {
+    position: absolute;
+    color: #444444;
+    font-family: "sans";
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.civic {
+    margin-left: 360px;
+    margin-top: -60px;
+}
+
+.textcivic {
+    margin-left: 135px;
+    margin-top: -85px;
+}
+
+/*fim notícias*/
+
+/*cursos*/
+.cursos {
+    margin-left: 750px;
+    margin-top: -480px;
+}
+
+.titulocursos a {
+    text-decoration: none;
+    color: #444444;
+    font-family: "sans";
+    font-weight: 400;
+    font-size: 30px;
+    max-width: 100px;
+}
+
+.titulocursos a:hover {
+    color: #b94a48;
+}
+
+.cursos img {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    justify-content: right;
+}
+
+.cursos ul {
+    list-style: none;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.cursos li {
+    margin-left: 30px;
+}
+
+.cursos a {
+    text-decoration: none;
+    color: #444;
+    font-family: "sans";
+}
+
+.cursos li :hover {
+    color: #b94a48;
+}
+
+.cursotecnico ul {
+    list-style: none;
+    margin-top: -145px;
+    font-size: 20px;
+    margin-right: 70px;
+    position: absolute;
+}
+
+.cursotecnico a {
+    text-decoration: none;
+    font-family: "sans";
+    color: #444;
+}
+
+.cursotecnico li {
+    margin-bottom: 10px;
+}
+
+.cursosuperior {
+    margin-bottom: 10px;
+}
+
+.cursosuperior li {
+    margin-bottom: 5px;
+}
+
+.cursosuperior ul {
+    margin-top: -210px;
+    margin-bottom: 60px;
+}
+
+.cursopos li {
+    margin-bottom: 10px;
+}
+
+.cursopos ul {
+    margin-top: -145px;
+}
+
+/*fim cursos*/
+
+/* INFORMAÇÕES */
+
+.informacoes {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacoes ul {
+    list-style: none;
+}
+
+.titulo {
+    font-size: 25px;
+}
+
+.informacoes a {
+    text-decoration: none;
+    color: #444;
+    font-family: "sans";
+    font-weight: 400;
+}
+
+.informacoes ul {
+    list-style: none;
+    padding: 0;
+}
+
+.informacoes li {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.avisos a {
+    text-decoration: none;
+    color: #444;
+    font-family: "sans";
+    font-weight: 400;
+}
+
+.tituloavisos a {
+    font-size: 25px;
+
+}
+
+.avisos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.avisos li {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.agenda {
+    margin-left: 400px;
+    margin-top: -145px;
+}
+
+.agenda a {
+    text-decoration: none;
+    color: #444;
+    font-family: "sans";
+    font-weight: 400;
+}
+
+.tituloagenda {
+    font-size: 25px;
+
+}
+
+.agenda p {
+    font-size: 13px;
+    color: #444;
+    font-family: "sans";
+    font-weight: 400;
+    margin-top: 10pxs;
+}
+
+.editais {
+    margin-left: 400px;
+    margin-top: -35px;
+}
+
+.tituloeditais a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #444;
+    font-family: "sans";
+    font-weight: 400;
+    margin-left: 400px;
+    margin-top: -40px;
+    position: absolute;
+}
+
+.editais li a {
+    font-size: 13px;
+    color: #444;
+    list-style: none;
+    text-decoration: none;
+    font-family: "sans";
+}
+
+.editais li {
+    margin-bottom: 10px;
+}
+
+/* Fim INFORMAÇÕES */
+
+/*fim da página inicial*/
+
+
+/*Pagina Avisos*/
+
+.paginaavisos{
+    margin-bottom: 100px;
+}
+
+.paginaavisos ul{
+    list-style: none;
+}
+
+.orientacao{
+    margin-left: 400px;
+    margin-top: 70px;
+}
+
+.orientacao img{
+    border-radius: 2px;
+}
+
+.orientacao a{
+    font-family: "sans";
+    text-decoration: none;
+    margin-bottom: 40px;
+    font-size: 17px;
+    color: #10641c;
+}   
+
+.orientacao a:hover{
+    color: #b94a48;
+}
+
+.orientacao p{
+    font-size: 12px;
+    font-family: "sans";
+}
+
+.textoorientacao{
+    margin-left: 90px;
+    margin-top: -70px;
+}
+
+.atencao{
+    margin-left: 400px;
+    margin-top: 75px;
+}
+
+.textoatencao{
+    margin-left: 90px;
+    margin-top: -65px;
+}
+
+.textoatencao a{
+    font-family: "sans";
+    text-decoration: none;
+    font-size: 17.1px;
+    color: #10641c;
+}
+
+.atencao a:hover{
+    color: #b94a48;
+}
+
+.atencao p{
+    font-size: 13px;
+    font-family: "sans";
+}
+
+.paginaavisos h1{
+    margin-left: 400px;
+    position: absolute;
+}
+
+.titulopagavisos{
+    margin-left: 400px;
+    position: absolute;
+    margin-top: 150px;
+    font-size: 33.33px;
+    font-family: "sans";
+    color: #333333;
+    font-weight: 400;
+}
+
+/*Fim Pagina Avisos*/
+
+
+
+/*Botões apaixo da página*/
+.opcoes ul {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-left: 140px;
+}
+
+.opcoes li {
+    margin-top: 50px;
+    margin-right: 10px;
+    border: 1px solid #7d7d7d;
+    padding: 10px;
+    border-radius: 3px;
+    transition: linear 0.1s;
+    cursor: pointer;
+}
+
+.opcoes li:hover {
+    background-color: #7d7d7d;
+    color: white;
+    transition: linear 0.1s;
+}
+
+.opcoes a {
+    color: #444;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.opcoes li:hover a {
+    color: white;
+    transition: linear 0.1s;
+}
+
+/*Fim Botões apaixo da página*/
+
+/*HR*/
+
+.sohr {
+    width: 100%;
+}
+
+.hrs hr {
+    margin-top: 100px;
+    max-width: 1145px;
+    color: #b6b6b6;
+}
+
+/*Fim HR*/
+
+/*começo FOOTER*/
+
+footer {
+    margin-top: 150px;
+    background-color: #ececec;
+    position: absolute;
+    width: 100%;
+    height: 330px;
+    margin-left: -399px;
+}
+
+.conteudo {
+    margin-top: 20px;
+}
+
+.conteudo h4 {
+    font-size: 17px;
+    font-family: "sans";
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.conteudo li {
+    font-size: 13px;
+    font-family: "sans";
+    list-style: none;
+
+}
+
+.conteudo a {
+    text-decoration: none;
+    color: #444;
+
+}
+
+.departamentos {
+    margin-left: 1300px;
+    position: absolute;
+}
+
+.servidores {
+    margin-left: 1000px;
+    position: absolute;
+}
+
+.alunos {
+    margin-left: 700px;
+    position: absolute;
+}
+
+.cursosfooter {
+    position: absolute;
+    margin-left: 400px;
+}
+
+.listacursos a :hover{
+    color: #b94a48;
+}
+/*Fim FOOTER*/
+
+.main_footer_copy {
+    background-color: #b94a48;
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 1.5em 0em;
+    margin-top: 15%;
+}
+
+.main_footer_copy p {
+    font-family: 'open_sanslight';
+    font-size: 1em;
+    color: #e1e0e0;
+    height: 20px;
+}
+
+.main_footer_copy .m-b-footer {
+    margin-bottom: 0.5px;
+}
+
+.main_footer_copy .by {
+    font-size: 0.96em;
+}
+
+.main_footer_copy .by i {
+    font-size: 0.96em;
+    margin-right: 3px;
+    color: #e82626;
+    font-size: 0.96em;
+    margin-right: 3px;
+    color: #e82626;
+}
+
+.abaixopagina{
+    margin-top: 70px;
+    margin-left: 400px;
+}
