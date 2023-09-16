@@ -485,6 +485,57 @@
 /*Fim Pagina Avisos*/
 
 
+/*Página de Cursos*/
+
+.titulopagcursos{
+    margin-left: 400px;
+    margin-top: -50px;
+    position: absolute;
+}
+
+.titulopagcursos h1{
+    color:#333333;
+    font-family: "sans";
+    font-weight: 500;
+}
+
+.cursospag{
+    margin-left: 400px; 
+}
+
+.cursospag a, h2{
+    color: #333333;
+    text-decoration: none;
+    font-family: "sans";
+    font-size: 17px;
+}
+
+.cursospag a:hover{
+    color: #b94a48;
+}
+
+
+.cursospag h2{
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.cursospag ul{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.cursospag li{
+    list-style: none;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+
+
+/*Fim Página de Cursos*/
 
 /*Botões apaixo da página*/
 .opcoes ul {
@@ -569,13 +620,11 @@ footer {
     font-size: 13px;
     font-family: "sans";
     list-style: none;
-
 }
 
 .conteudo a {
     text-decoration: none;
     color: #444;
-
 }
 
 .departamentos {
@@ -598,9 +647,10 @@ footer {
     margin-left: 400px;
 }
 
-.listacursos a :hover{
+.conteudo a:hover{
     color: #b94a48;
 }
+
 /*Fim FOOTER*/
 
 .main_footer_copy {
